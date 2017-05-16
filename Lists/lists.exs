@@ -11,3 +11,8 @@ fn x ->
 print.(list)
 list2 = Enum.map(list, fn(x) -> x *2 end)
 print.(list2)
+
+# List of Characters
+
+list = 'hello'
+print.(list)

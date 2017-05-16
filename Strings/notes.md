@@ -11,6 +11,10 @@
     ē is UTF-8 requires two bytes, hence the discrepancy.
 
 * <> is the concatination operator in Elixir.
+* Strings are differnt from a list of characters.
+    ``` elixir
+        'hello' == "hello" # false
+    ```
 * Elixir supports String Interpolation
     ``` elixir
         IO.puts("Interpolation is #{word}")
