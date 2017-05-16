@@ -15,3 +15,10 @@
         >111
         >[:ok, :ok, :ok, :ok, :ok]
     ```
+
+* Updating a list is fast as long as we are pre-pending, because the new element has to just point as the current head.
+
+    ``` elixir
+        list = [1 | [2 | [3 | []]]
+        list = [0 | list]
+    ```
