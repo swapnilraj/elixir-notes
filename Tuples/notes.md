@@ -12,3 +12,5 @@
         tuple = put_elem(tuple, 1, :print)
         # [:ok, :print]
     ```
+
+* Updating or adding new elements to a tuple is expensive because the entire tuple needs to be copied, since Elixir is immutable.
